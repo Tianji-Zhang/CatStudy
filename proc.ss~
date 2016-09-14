@@ -1,0 +1,47 @@
+(define dir_base "~/Liter/")
+(define dir_list (list "4" "5.9" "5.10" "5.11" "5.12"))
+
+
+(define (content dir_base dir_list)
+  (map
+   (lambda (x)
+     (let
+	 ((dir_full
+	   (string-append dir_base x)))
+       (procdir dir_full)))
+   dir_list))
+
+(define (procdir dir)
+  (let*
+      ((path_all
+	(directory-list dir))
+       (path_list
+	(filter isfdf path_all)))
+    (map
+     (lambda (x) x)
+     path_list)))
+
+(define isfdf
+    (lambda(pathname)
+      (let* ((end (string-length pathname))
+	     (profix ".fdf")
+	     (n_fix (string-length profix))
+	     )
+	(if (< end n_fix) #f
+	    (string=? profix
+		      (substring pathname (- end n_fix) end)) ))))
+
+(define (readfile path)
+  (with-open-file
+      (file path
+	    :direction
+	    :input
+	    :if-does-not-exist nil)
+    (let ((content '()))
+      (do ((line (read-line content file)))
+	  ((eql line 'eof) (proc_strs content))
+	(push line content)))))
+
+(define (proc_strs content)
+  content)
+(content dir_base dir_list)

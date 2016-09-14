@@ -1,0 +1,53 @@
+(ql:quickload "cl-fad")
+(ql:quickload "cl-ppcre")
+(ql:quickload "flexi-streams")
+
+(defvar dir_base "~/Liter/")
+(defvar dir_list (list "4" "5.9" "5.10" "5.11" "5.12"))
+
+
+(defun content (dir_base dir_list)
+  (mapcar
+   (lambda (x)
+     (let
+	 ((dir_full
+	   (concatenate 'string dir_base x)))
+       (procdir dir_full)))
+   dir_list))
+
+(defun procdir (dir)
+  (let*
+      ((path_all
+	(cl-fad:list-directory dir))
+       (path_list
+	(remove-if-not isfdf path_all)))
+    (mapcar
+     (lambda (x) (readfile x))
+     path_list)))
+
+(defvar isfdf
+    #'(lambda(pathname)
+      (search ".fdf"
+	      (namestring pathname))))
+
+(defun readfile (path)
+  (with-open-file
+      (file path
+	    :if-does-not-exist nil)
+    (let ((content (make-string (file-length file))))
+      (handler-bind ((sb-int:stream-decoding-error
+		      (lambda (c) (invoke-restart 'attempt-resync))))
+	(read-sequence content file))
+      (proc_strs content))))
+
+(defun proc_strs (content)
+  (let* ((reg-str "Contents[(](.*?)[)]/CreationDate")
+	 (reg-2 "\\\\(")
+	 (reg-3 "\\\\)")
+	 (reg-4 "\\\\[r]")
+	 (data
+	  (cl-ppcre:all-matches-as-strings reg-str
+					   content)))
+    data))
+(readfile "~/Liter/4/moe.txt")
+;(content dir_base dir_list)

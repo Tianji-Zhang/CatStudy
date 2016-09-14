@@ -1,0 +1,335 @@
+'(("4" ("/root/Liter/4/.SPE-125336-MS(4).fdf.swp")
+    ("/root/Liter/4/.SPE-125336-MS(4).fdf.swx")
+    ("/root/Liter/4/1-s2.0-S0016236115009370-main.fdf"
+     ("Problem: In shale gas, how the water and gas production curve short and long term is affected by the capillary, fracture networks and shut-in period during water flowback stage in shale gas reservoir and why?")
+     ("what is soaking period?")
+     ("What is flowback efficiency?")
+     ("GWRGas-water ratio = qg/qw")
+     ("GWR vs time: first decrease then increase")
+     ("Long shut-in time: early-stage GWR increase V shape")
+     ("Pc increase: increase GWR by reducing water production imbibition?"))
+    ("/root/Liter/4/1-s2.0-S1875510014002479-main.fdf"
+     ("determine the acceptable dissolved solid contents for flowback fluids to prepare fracturing fluids through experimental study on high pH, high temperature borate crosslinked guar-based polymer flowback fluid sample.")
+     ("Ca Mg: negative, 30% divalent." "Na, P: toleratble.")
+     ("TDS: 2900-25200mg/l") ("300psi, 305F")
+     ("170s-1, 100-1000cp for zero salt conc"
+      "affected by shear rate, lower rate, "
+      "divalent: 0.02-0.08wt% " "monovalent: 0.2-0.8wt% ")
+     ("Maximum conc:" "Ca 600ppm" "Mg 750ppm" "Na 11000ppm"
+      "K 23000ppm")
+     ("SAOS? Measure near wellbore Small-amplitude oscillatory shear SAOS measurements."
+      "" "elasticity of the polymers increases with frequency")
+     ("Decrease proppant suspension")
+     ("Higher gel contents, less and slow decrease of proppant suspension.")
+     ("Why monovalent is better than divalent cations?"))
+    ("/root/Liter/4/IPTC-17824-MS(10).fdf"
+     ("Combatible FR for high TDS >250000ppm, hardness 60000ppm")
+     ("TDS: 222232calc.")
+     ("Mg: 2433" "Ca: 13200" "Na: 68692" "K: 475")
+     ("Cations hinder FRs 30%")
+     ("Well comparison A and B: are they similar?"))
+    ("/root/Liter/4/SPE-125336-MS(4).fdf"
+     ("Design fracturing fluids, optimizing fluid performance")
+     ("Factors: Salinity, biological activity, scaling tendency")
+     ("Three samples" "TDS: 602, 33100, 147000mg/l"
+      "Ca: 104, 20200, 49600mg/l")
+     ("What is capillary suction retention?"))
+    ("/root/Liter/4/SPE-163824-MS(6).fdf"
+     ("develop crosslinked gel CMHPG fracturing fluid with TDS>270000ppm and 140F.")
+     ("Na: 70342" "Ca: 29222")
+     ("Maximum apparent viscosity at 40sec-1 shear rate: 80-30cp")
+     ("Is there anything common to develop salt-resistant stuff? Frank said it is an impossible task for FRs since it has a molecular weight over ten million with chain structure.")
+     ("70000-100000USD per well for water treatment."))
+    ("/root/Liter/4/SPE-167175-MS(5).fdf"
+     ("Develop fracturing fluid, TDS? 300000mg/L, hardness > 30000mg/l. Good proppant transport at 20bpm")
+     ("The purpose of using crosslink gel: deepzone of excessive applied pressure, proppant-carrying capacity")
+     ("CMHPG") ("Viscosity: > 200cP 25lb/1000gal CMHPG")
+     ("Tests:" "1 shear rate" "2 Viscoelastic shear modular G"
+      "3 Size distribution" "4 Proppant settling"
+      "5 Conductivity" "6 Field testing"))
+    ("/root/Liter/4/SPE-170607-MS(3).fdf"
+     ("develop fracturing fluid, TDS> 330000mg/L, hardness> 60000mg/l, T = 275F"
+      "" "viscosity: 100cP at 100/s shear rate. 80min")
+     ("Breaking test:")
+     ("Content: organometallic-crosslinked derivatized polysaccharide"))
+    ("/root/Liter/4/SPE-173602-MS(2).fdf"
+     ("Develop fracturing fluid. "
+      "TDS > 300000mg/l, hardness > 30000mg/L" "boron >500mg/L"
+      "good proppant transport")
+     ("Viscosity: 17-23cp, 511s-1, 40-70F"
+      "contents: Guar and CMHPG"))
+    ("/root/Liter/4/SPE-173746-MS(1).fdf"
+     ("Develop fracturing fluid, additive-B"
+      "crosslinking delay, 100cp viscosity at 100/s shear rate, 275F.")))
+   ("5.9"
+    ("/root/Liter/5.9/SPE-107666-PA_Decrypted.fdf"
+     ("Continuous loss of injectivity can be observed even in high permeability formation.")
+     ("SPE 30110 has been read. Four mechanism of permeability impairment, pore-matrix scale. "
+      "This article should be an implementation and explanation from both mathematical model and experiment study. "
+      "The theoretical analysis is based on colloidal approach \\DLVO Theory?.")
+     ("PWRI experiment study on the effect of particles: uncharged oil droplets and electrosterically stabilized latex microspheres. with a variety of velocities. The collection of grains is considered.")
+     ("What is the meaning of \"deposition\"- attached? adsorbed? clogged? or just any sorts of \"Stop moving\"?")
+     ("Brownian diffusion constant can be understood as Bolzmann constant vs size and viscosity")
+     ("Colletion efficiency ratio of deposited-incident particle flux:  Chauveteau et al. 1998."
+      "diffusion-layer thickness: Levich 1962"
+      "interaction-layer thickness: Nabzar and"
+      "Chauveteau 1997; Russel et al. 1996." ""
+      "Better to search for the literature.")
+     ("The purpose of inducing interaction-layer is to determine when the particle will deposit under diffusion-convection pattern or hydrodynamic pattern, which is represented by critical peclect number Pegc. eliminate diffusion layer thickness and represen\\t it with grain size distribution during the analysis of collection growth. It depends on the separation between diffusion-convection zones. But, what about capillary pressure and surface force?")
+     ("The value of alpha determines whether the grain will be attracted or separated. alpha=2/3 DLD diffusion of pre-existed fines can dominate deposition, =1 RLD only chemical reaction will cause deposition")
+     ("Monomodal size distribution of oil droplet is applied in the flooding experiment")
+     ("calculate the experimental collection efficiency from the measurement of the plateau value of C/C0 corresponding to a given Peg value. "
+      "A well-known relationship: Elimelech et al. 1998, p. 351"
+      "limited to low-surface-coverage condition, concentration\\s between 25-30mg/L."))
+    ("/root/Liter/5.9/SPE-132346-PA(r).fdf"
+     ("Determine the value of PWRI volume, resulting in low-risk of scaling ")
+     ("Formation water:" "pH = 5.81" "Ca 16120" "Sr 703" "Ba 7"
+      "Cl- 159252" "TDS 299742")
+     ("The scaling index vs seawater-produced water ratio is compared: wellhead and bottomhole. Wellhead has lower index for different minerals.")
+     ("Calcite precipitation and GOR vs different water saturation, BH and WH: negative correlation. Higher oil production, less scaling on calcite"))
+    ("/root/Liter/5.9/SPE-165138-PA_Decrypted.fdf"
+     ("Develop a Monte-Carlo simulator 2000 cases to analyze the uncertainties during PWRI in order to find the pressure needed to achieve sustainability.")
+     ("Focues on: solid and oil droplet transport. Deep invasion and shallow invasion model. The filter-cake deposition contains face-cake and tip-cake deposition model.")
+     ("DIM and SHIM model")
+     ("Program stops when maximum injection is reached to prevent fracture propagation into caprock and out-of-zone injection. Also, it stops when the fracture is filled with mud cake."))
+    ("/root/Liter/5.9/SPE-16964-PA.fdf"
+     ("Water films between crude oil and rock surface can prevent oil adsorption to the wall."
+      "Factors: pH,brine concentration and adhesion force.")
+     ("The dissociation of carboxylic acid causes negative surface charge, explained by ionizable surface group model ISG")
+     ("Increase pH will increase the disjoining pressure.")
+     ("decreased salinity of Na+ in can increase disjoining pressure.")
+     ("zeta potential generally decrease sharper on pH with lower Na concentration.")
+     ("Non-adhesion can also occur at high ionic strength and pH"))
+    ("/root/Liter/5.9/SPE-27395-MS.fdf"
+     ("1 Determine how rapidly the formation injection face is plugged by produced water re-injection "
+      "2 the location and mechanism of damage"
+      "3 the impacts of bacterial growth on the extent and rate of damage.")
+     ("Prudhole Bay core sample & produced water analsyis.")
+     ("permeability decrease Field vs core:"
+      "time, 90% line weeks vs 24hours"
+      "thermal fractures can re-mediate the sand face plugging.")
+     ("1 Oil-in-water content,"
+      "2 Suspended solid concentrations,"
+      "3 Particle size distritutions,"
+      "4 Sulfate reducing bacteria SRB  counts,"
+      "5 General aerobic bacteria GAB counts,"
+      "6 Chemical compositions.")
+     ("Formation damage model:"
+      "van Velzen and Leerlooijer's Model, 1992"
+      "Howard and Fast's Model, 1957")
+     ("Less than 1 inch penetration of perm damage")
+     ("Permeability decrease 7-10 times"))
+    ("/root/Liter/5.9/SPE-28936-PA.fdf"
+     ("Analysis oif 159 Injectors from Prudhoe Bay oilfield during 10 years' practice to discover the limiting level of water quality."
+      "Injection fluids:" "seawater" "produced water"
+      "miscible injectant MI")
+     ("Thermal fracturing can mediate the water quality effects, North Sea fields.")
+     ("Injectivity produced water vs sea water: 30%-50%"
+      "higher fracture gradient by 0.04-0.06psi/ft 0.57-0.6psi/ft"
+      "Temperature 150 vs 80F" ""
+      "short-term improvement vs impairment")
+     ("What does injectivity and injection rate mean in the field?"
+      "seawater has lower, decrease trend on timeline.")
+     ("1 Induced fracture can reorient if the tow principal horizontal stresses have greater difference."
+      "2 Productivity increase is better achieved in near vertical wells than the fractured but unfavorable oriented wells.")
+     ("Max produced water quality: 440ppm oil in water, 15mg/L solids"))
+    ("/root/Liter/5.9/SPE-30110-MS.fdf"
+     ("Two previous theories on formation damage: surface deposition force and straining clogging, grain size.")
+     ("Core-flooding experiment to investigate the effect of flow rate and particle size on formation damage."
+      "Models to represent the two factors")
+     ("Reentrainement probability strongly increases with particle radius and flow rate. A competition between hydrodynamic and attractive surface forces.")
+     ("phases:" "1 particle deposition phase" "2 bridging phase"
+      "3 multiparticle bridging" "4 internal accumulation phase"
+      "5 external cake formation")
+     ("In the field, different zones with difference velocities could experience various formation damage patterns?")
+     ("What is uniform intersticial velocity?")
+     ("permeability decrease:" "" "Low flow velocity 10 times,"
+      "High 2-4 times")
+     ("plugging experiment vs typical injection experiment"))
+    ("/root/Liter/5.9/SPE-68336-MS(ChemicalReaction).fdf"
+     ("develop chemical-hydro-mechanical numerical model"
+      "investigate insoluble salt precipitation barium and strontium sulfate"
+      "validated by sand pack experiment."
+      "Oilfield scaling issue caused by water re-injection.")
+     ("Some references on chemical effect of formation damage:"
+      "Malate 1992" "Walsh et al. 1984" "Wu and Sharma 1989"
+      "Chang and Civan 1991" "Araque-Martinez and Lake 1999")
+     ("Most commonly found scales: Petrowiki")
+     ("Coupled chemical effect on equilibrium constant")
+     ("ion species:" "Na, Cl, Ba, Sr, SO4")
+     ("So, the reaction rates are measured as positive only, instead of Lagasa's model."))
+    ("/root/Liter/5.9/SPE-79695-MS(ChemMechCoupled).fdf"
+     ("Develop a numerical model for PWRI Produced-water re-injection:"
+      "1 reservoir flow"
+      "2 formation damage permeability damage"
+      "3 stress alteration around the injector"
+      "4 fracture propagation dynamic fracture"
+      "Field: Masila Block in Yemen "
+      "Sustain\\able injection rate: 100000BWPD")
+     ("Plugging generates pressure gradient, thermoelastic stress induce fracture pressure")
+     ("Try to retrieve the models mentioned in this article.")
+     ("BWPD for ANSI 600 Standard?")))
+   ("5.10"
+    ("/root/Liter/5.10/SPE-115769-PA.fdf"
+     ("It can be beneficial to conduct larger, complexer fracture network with permeability less than 0.0001md."))
+    ("/root/Liter/5.10/SPE-147306-PA.fdf"
+     ("Dilute surfactant injection into carbonate reservoir to increase recovery, high temperature >90C and salinity hardness >50000ppm.")
+     ("surfactant are non-ionic mainly.")
+     ("Higher flow rates reduce capillary number so increase recovery in carbonate rocks. The experiment has 0.06mL/min-10mL/min.")
+     ("Why first inject 5PV before the 10PV with lower rate? For initial water imbibition and wettability alternation purpose?")
+     ("secondary waterflooding with wettability alternation surfactant can improve recovery significantly."))
+    ("/root/Liter/5.10/SPE-164113-PA.fdf"
+     ("Sulface scaling can be affected by the flow path connecting production and injection wells. Wright et al., 2008.")
+     ("1D reactive transport model scaling and vertical interwell layers ")
+     ("Produced water composition vary as physical properties of layers between the wells are modified. ")
+     ("Seawater: 2000-4000ppm SO4" "Formation: <1000ppm")
+     ("two layers Ba return :"
+      "higher flow rate difference, faster to drop and reach minimum, but the minimum level is higher.")
+     ("two-layer seawater fraction:"
+      "higher flow rate ratio, a higher discontinuity occur before Ba concentration reaches minimum as seawater percentage increases.")
+     ("concentration return profile vs seawater percentage."))
+    ("/root/Liter/5.10/SPE-164634-PA.fdf"
+     ("Coreflooding experiment to investigate damage caused by CaSO4 deposition during seawater injection with Berea sandstone. 30% permeability decrease."
+      "__But some other literature say high salinity cause more perm damage.")
+     ("Sea water sulfate ion can reach 4000ppm.")
+     ("Also, developed organic materials surfactant to prevent and remove sulfate precipitation.")
+     ("Solubility of CaSO4 can be different in formation brine 5% NaCl, seawater 2% and diluted seawater 0.5%, the first one is the largest."))
+    ("/root/Liter/5.10/SPE-174235-MS.fdf"
+     ("Investiagate 1-D scaling of BaSO4, SrSO4 and CaSO4 of Miller Field with produced water data. ")
+     ("Quite directly related to my research and Dr. Wang's interest.")
+     ("conventional reservoir simulators do not take chemical effect into account.")
+     ("The reservoir contains CO2. High perm 200mD-1000mD")
+     ("Injection water fraction IWF is used to make comparison, different of chloride concentration in formation and injection water. Concentration vs IWF plot")
+     ("Ba,Sr concentration decrease while Mg and Ca increase. Ca has a down \"V\" pattern.")
+     ("scaling Inhibitor near wells are neglected in the model."))
+    ("/root/Liter/5.10/SPE-174367-MS.fdf"
+     ("Low salinity flooding: surfactant available for not applicable in high salinity situation. "
+      ""
+      "Aged Berea sandstone coreflooding experiment applying surfactant sodium dodecylbenzenesulfonate SDBS ")
+     ("Low salinity surfactant vs high salinity surfactant vs tertiary lss injection. Recovery rate and injection volume.")
+     ("An explanation to low salinity: the surfactant retention by adsorption decreases and reduce the need for alkaline. "
+      ""
+      "Optimization of salinity gradient surfactant: salinity requirement diagram, Nelson 1982.")
+     ("The objective of this article is to investigate the performance of the surfactant injection process when the low salinity surfactant is combined with low salinity water injection. ")
+     ("IFT can be optimized with salinity. ")
+     ("SDB concentration: 300,500,1000,3000mg/L")
+     ("IFT increase with NaCl concentration.")
+     ("This Figure can be compared with Dr. Johns' analytical results.")
+     ("Results"
+      "1 Low surfactant concentration: increasing surfactant concentration cannot obtain high oil recovery."
+      "2 Tertiary LSS injection is best efficient."
+      "3 LS-HSS-HS has overall higher recovery than HS-HSS-LS, while the latter achieve higher recovery du\\ring the middle stage")))
+   ("5.11"
+    ("/root/Liter/5.11/1-s2.0-S0022169498001693-main.fdf"
+     ("This study carries out core flood experiments with a variety of filtered NaCl solutions subjected to increased flow rates to investigate the mechanisms of formation damage induced by the release and capture of in situ particles")
+     ("The critical flow rate is found to be higher than those observed in the literature. Hydrodynamic effect can reduce permeability by more than 50%, less severe than chemical effect.")
+     ("Berea sandstone contains mainly kaolinite and quartz grains.")
+     ("Details on the physics of deposition, valuable for further reading.")
+     ("The higher the fluid salinity, the higher is the critical flow rate and the less is the permeability decline."))
+    ("/root/Liter/5.11/1-s2.0-S0375650514000741-main.fdf"
+     ("Different with some other projects")
+     ("Berea sandstone is often used as a reference formation to study mechanisms that affect permeability in reservoir sandstones. ")
+     ("DLVO/EDL theory" "Repulsive double-layer force")
+     ("Investigate temperature and salinity effect on permeability reduction of Berea sandstone.")
+     ("permeability increase with NaCl, reduce with temperature increase, while it has a V shape on single temperature increase.")
+     ("Generally, permeability increase with interstitial velocity. ")
+     ("Microscopic image shows that kaolinite is concentrated in some pores but not others.")
+     ("For Berea sandstone the effect of heating on permeability is reversible, while salinity is not. lower salinity from 2.0-0.002M will cause strong permeability damage."))
+    ("/root/Liter/5.11/1-s2.0-S0920410598000746-main.fdf"
+     ("This paper presents a case study of a stimulation scenario demonstrating the potential pitfalls that were avoided by using an integrated study effort.")
+     ("Critical salt concentration are usually found to be higher than traditional values.")
+     ("more than one types of clay means higher salinity value to stabilize the clays.")
+     ("damage coefficient: beta= dalpha/dV" "alpha = dP/mu"
+      "an important indicator for formation damage evaluation in core.")
+     ("2%wt KCl base fluid can mobilize kaolinite and chlorite and swell illite. 10% wt will stablize.")
+     ("CSC value: Khilar and Fogler,"
+      "1984; Khilar et al., 1990"
+      "Not sufficient for stability."))
+    ("/root/Liter/5.11/PETSOC-2000-054.fdf"
+     ("Injection peformance often exceeds theoretically expected values in viscous oil fields.")
+     ("Pilot study to decide the salinity to optimize formation damage resulting from clay deflocculation through saline shock.")
+     ("The salinity to keep clays in a flocculent state increases as cation exchange capacity increases.")
+     ("critical velocity:" "1 rock wettability"
+      "2 fines wettability" "3 pore geometry"
+      "4 ionic strength and pH of injection fluid.")
+     ("Fresh water core flooding experiment result in 90%-87% permeability decrease.")
+     ("deffloculation becomes severe with low salinity takes places again.")
+     ("8.52g/l is optimized salinity, with reduced 6-19% permeability")
+     ("TDS: 38084mg/L")
+     ("  Critical Velocity)/DA([0 0 0] r /Helv 10 Tf)/DS(font: Helvetica,sans-serif 10.0pt; text-align:left; color:#000000 )/F 4/M(D:20000505133840-07'00')/NM(1900029)/Open false/Page 8/RC(<?xml version=\"1.0\"?><body xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:xfa=\"http://www.xfa.org/schema/xfa-data/1.0/\" xfa:APIVersion=\"Acrobat:15.17.0\" xfa:spec=\"2.0.2\"  style=\"font-size:10.0pt;text-align:left;color:#000000;font-weight:normal;font-style:norm\\al;font-family:Helvetica,sans-serif;font-stretch:normal\"><p>&#8226;  Critical Velocity</p></body>)/Rect[256.19843 724.23132 380.16541 746.54535]/Subtype/FreeText/T(Diana Nelson)/Type/Annot>>endobj21 0 obj<</C[1.0 0.819611 0.0]/Figures:"
+      ""
+      "perm vs PVI, concentration has impact on the deflocculation."))
+    ("/root/Liter/5.11/SPWLA-2010-v51n5a3.fdf"
+     ("Investigate the low salinity change of wettability through microscopic observation.")
+     ("1. massive release of crude oil"
+      "2. decomposition of the montmorionite clay minerals and release of fines.")
+     ("Lager et al, 2008, comprehensive overview of the historical development of a deeper understanding of the effect."
+      ""
+      "The effect is not seen in carbonate rock, thought to be relevant to clay.")
+     ("wettability modification: ionic exchange or double layer expansion?")
+     ("The dispute on the mechanism of LSS enhanced : a review on this issue, worth further reading.")
+     ("Additional recovery in a recovery curve IOR")
+     ("an oil droplet is attached to clay particles anchored on a solid substrate. When flooding with low salinity water, the droplet detaches. ")
+     ("Examine the decrease of clay-oil adhesive force."))
+    ("/root/Liter/5.11/art_10.1007_s00603-014-0671-0.fdf"
+     ("Objective: investigate the effect of salinity on the effective O2 permeability of reservoir rock under different injection pressures.")
+     ("Effective permeability increases 0-30% with different salinity of NaCl. Deposition of NaCl occurs in the rock pore space and increase with brine concentration."))
+    ("/root/Liter/5.11/ba-1996-0251.ch006.fdf"
+     ("A general review on fine migration issue, including many models.")
+     ("particle transport scale:"
+      "surface cake, straining and physical-chemical deposition.")
+     ("10% clay particles could be contained in fine migration issue.")
+     ("Four major types:"
+      "kaolinite,smectite,illite and chlorite.")
+     ("London-van der Waal attraction force attach clay to pore walls.")
+     ("Formation damage in the presence of oil is less pronounced.")
+     ("Hydrodynamic force: lift force and viscous-drag force."))
+    ("/root/Liter/5.11/la960868w.fdf"
+     ("critical salt concentration: transition from crystalline to osmotic swelling, independent of pH.")
+     ("Surface complex model is developed to predict the diffuse layer charge of clay as a function of the surface charge, ion strength, pH and affinity of the counterions to the surface.")
+     ("Berea sandstone, critical salinity cause reduction to sandstone. pH and salinity affect the migration of kaolinite clays - why? ")
+     ("smectites can cause both migration and swelling.")
+     ("The swelling of clays has been shown to be a function of the layer charge which is an indication of the charge deficiency of the mineral.")
+     ("Permeability reduction requires more concentration to initiate particle release.")))
+   ("5.12"
+    ("/root/Liter/5.12/OTC-22341-MS.fdf"
+     ("High capillary pressure can lead to spontaneous imbibition phenomenon and induce water-blocking damage. On the other hand, it can be applied to change the reservoir wettability by optimizing rock-fluid interactions using surfactant-brine systems during ex\\ploitation.")
+     ("A review on the formation damage in unconventional reservoir gas."))
+    ("/root/Liter/5.12/SPE-122241-MS.fdf"
+     ("Pore throat reduction and pore-lining retentions of particles are considered in this article during the simulation of formation damage.")
+     ("swelling state is defined as the volume ratio of adsorbed water to clay, where can be represented by adsorption-desorption kinetics."))
+    ("/root/Liter/5.12/SPE-144009-PA.fdf"
+     ("Develop model for salinity variation on fine transport under LST. Permeability decline in water-swept zone may improve waterflood performance by delaying water breakthrough. ")
+     ("Extend the previous works to 2D modeling, 2 phase flow.")
+     ("Implementation:" "The maximized retention function,"
+      "mobility control caused by fine migration and formation damage")
+     ("maximum concentration of restrained particles."))
+    ("/root/Liter/5.12/SPE-168598-PA.fdf"
+     ("Salt concentration of flowback water increases with time.")
+     ("Developed a model for water prediction based on flowback water salinity.")
+     ("To determine: salinity comes from secondary fractures or primary fractures?")
+     ("Fracture complexity with salinity.")
+     ("PTA, RTA methods to characterize fracture network production analysis.")
+     ("Basic methods for fracture complexity analysis:"
+      "1. production data analysis;" "2. microseismic analysis."
+      "3. tracer test," "4. flowback-chemical.")
+     ("Hypersaline with localized precipitated salt areas."
+      "When salinity profile constantly increase with load recovery, the ASD is wider and more complex."))
+    ("/root/Liter/5.12/SPE-174041-MS.fdf"
+     ("LSB recovery in oil saturated Muskwa shale in Canada, LSB <4%KCl extracts more than higher concentration.")
+     ("IFT remains constant in low salinity, short-lived oil in water emulsions can be observed in surfantant. Core flooding test ROC method is conducted."))
+    ("/root/Liter/5.12/SPE-174237-MS.fdf"
+     ("Tight gas reservoirs could show more damage during drilling, completion, stimulation and production.")
+     ("Damage:" "mechanical damage to formation rock,"
+      "plugging of natural fractures "
+      "relative permeability around wellbore"
+      "liquid leak-off into formation during fracturing"
+      "water blocking" "damage due to wellbore breakouts"
+      "compression damage" "perforation")
+     ("A review of commonly practiced methods and tools for prevention, control and remediation of formation damage in tight gas reservoir. Valuable for further reading.")
+     ("Can I consider the original reservoir concentration of clay content and formation water as equilibrium state?")
+     ("Change of salinity can improve oil recovery while aggravate the de-flocculation of clay and fine migration.")
+     ("Physical adsorption of molecular large chemical components like polymer.")
+     ("Tight gas: permeability less than 0.1mD."
+      "The problem is not hydraulic fracturing itself, but to prevent formation damage. Advanced numerical simulation like CFD should be further developed.")
+     ("Advanced drilling techniques:" "MPD, UBD, CTD, TTRD."))))
